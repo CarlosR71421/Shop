@@ -133,3 +133,11 @@
 
 </body>
 </html>
+
+
+<!-- 
+    
+ CNAME @  8rc9e8x1.up.railway.app 
+TXT  _railway-verify  railway-verify=2cf012910464055e9654741f2c8489cce9383eb7eebe7dcef56ea4bef91fb941
+
+-->
