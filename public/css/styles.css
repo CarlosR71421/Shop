@@ -89,6 +89,66 @@ header {
     object-fit: contain;
 }
 
+/* CONTENEDOR DEL BOTÓN LOGIN */
+.btn-log-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* BOTÓN LOGIN */
+.btn.btn-log {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 46px;
+    height: 46px;
+
+    background-color: transparent;
+    border: 1px solid var(--dorado);
+    border-radius: 50%;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* ICONO DEL BOTÓN */
+.btn.btn-log img {
+    width: 21px;
+    height: 21px;
+    object-fit: contain;
+
+    transition: filter 0.3s ease,
+                transform 0.3s ease;
+}
+
+/* EFECTO HOVER */
+.btn.btn-log:hover {
+    background-color: var(--verde);
+    border-color: var(--verde);
+
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(66, 70, 56, 0.15);
+}
+
+/* CAMBIAR ICONO A BLANCO */
+.btn.btn-log:hover img {
+    filter: brightness(0) invert(1);
+}
+
+/* EFECTO AL PRESIONAR */
+.btn.btn-log:active {
+    transform: scale(0.95);
+    box-shadow: none;
+}
+
+/* NAVEGACIÓN CON TECLADO */
+.btn.btn-log:focus-visible {
+    outline: 2px solid var(--dorado);
+    outline-offset: 4px;
+}
+
 .nav-link {
     font-size: 13px;
     font-weight: 500;

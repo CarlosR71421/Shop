@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ÉLYSÉA</title>  
-    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/styles-responsive.css') }}">
 </head>
 <body>
     <header>
@@ -34,6 +34,11 @@
                         </li>
                 </ul>
             </div>
+            
+            <div class="btn-log-primary">
+                <a href="{{ route('login') }}" class="btn btn-log" title="Iniciar sesión" aria-label="Iniciar sesión">
+                    <img src="{{ asset('icons/log-in.svg') }}" alt=""></a>
+            </div>
         </nav>
 
         <div class="container">
@@ -53,6 +58,8 @@
             </div>
             </section>
         </div>
+
+
     </header>   
 
 
